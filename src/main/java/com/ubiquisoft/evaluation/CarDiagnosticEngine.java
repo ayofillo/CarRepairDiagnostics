@@ -87,7 +87,6 @@ public class CarDiagnosticEngine {
                 }
             }
         }
-
         if (allGood) {
             System.out.println("*** Diagnostics check complete, all test passed... ***");
         }

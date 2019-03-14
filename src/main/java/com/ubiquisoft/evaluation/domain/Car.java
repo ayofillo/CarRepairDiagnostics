@@ -42,7 +42,6 @@ public class Car {
             matrix.add(part.getType());
         });
 
-
         Map<PartType, Integer> missingParts = new HashMap<>();
         //if greater, then a/some tire(s) is missing
         if (tireCount.get() > 0) {
